@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Gestionar cita medica" skipped="0" tests="1" time="20.18" timestamp="2019-03-27T08:40:59.855-05:00[America/Bogota]"><testcase name="Realizar el Agendamiento de una Cita"><failure message="&#10;Expected: a string containing &quot;Datos guardados correctamente.&quot;&#10;     but: was &quot;No se pudo guardar debido a:&#10;*El campo 'Documento de identidad' no se encuentra entre nuestros pacientes registrados.&quot;" type="java.lang.AssertionError">
+Expected: a string containing "Datos guardados correctamente."
+     but: was "No se pudo guardar debido a:
+*El campo 'Documento de identidad' no se encuentra entre nuestros pacientes registrados."</failure><system-err>
+Expected: a string containing "Datos guardados correctamente."
+     but: was "No se pudo guardar debido a:
+*El campo 'Documento de identidad' no se encuentra entre nuestros pacientes registrados."&#13;
+com.choucair.formacion.pageobjects.IngresosFormularioAgendarPage.guardado_correctamente(IngresosFormularioAgendarPage.java:56)&#13;
+com.choucair.formacion.steps.IngresosFormularioSteps.verificar_ingreso_datos_exitosos_agenda(IngresosFormularioSteps.java:58)&#13;
+com.choucair.formacion.definition.IngresosDefinition.el_verifica_que_los_datos_de_la_cita_fueran_guardados_cuando_se_presente_en_pantalla_el_mensaje_Datos_guardados_correctamente(IngresosDefinition.java:80)&#13;
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)&#13;
+</system-err></testcase></testsuite>

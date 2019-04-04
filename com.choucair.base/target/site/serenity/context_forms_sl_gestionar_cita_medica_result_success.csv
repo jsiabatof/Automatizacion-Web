@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Gestionar cita medica","Realizar el Registro de un Doctor","SUCCESS","08:42:00","0.0","17.09"
+"Gestionar cita medica","Realizar el Registro de un Paciente","SUCCESS","08:42:19","0.0","15.46"
+"Gestionar cita medica","Realizar el Agendamiento de una Cita","SUCCESS","08:42:35","0.0","13.52"
